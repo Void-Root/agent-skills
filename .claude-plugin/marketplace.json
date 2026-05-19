@@ -4,15 +4,12 @@
     "name": "Addy Osmani"
   },
   "metadata": {
-    "description": "Production-grade engineering skills for AI coding agents — covering the full software development lifecycle from spec to ship. [Locked to fork Void-Root/agent-skills — see baseline-upstream-2026-05-19 tag for rollback]"
+    "description": "Production-grade engineering skills for AI coding agents — covering the full software development lifecycle from spec to ship. [Locked to fork Void-Root/agent-skills — see baseline-upstream-2026-05-19 tag for rollback. source ./ — plugin from same repo, no separate SSH clone needed.]"
   },
   "plugins": [
     {
       "name": "agent-skills",
-      "source": {
-        "source": "github",
-        "repo": "Void-Root/agent-skills"
-      },
+      "source": "./",
       "description": "Production-grade engineering skills covering every phase of software development: spec, plan, build, verify, review, and ship."
     }
   ]
